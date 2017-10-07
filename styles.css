@@ -1,7 +1,8 @@
 .group {
-  width: 600px;
+  width: 490px;
   height:1000px;
-  margin:auto;
+  margin-left:auto;
+  margin-right:auto;
   padding-top:100px;
   padding-bottom:100px;
 }
@@ -97,4 +98,18 @@ body {
 .square9:hover {
   background-color:rgb(13, 13, 14);
   opacity: 1;
+}
+
+
+a {
+  text-align: center;
+  color: rgb(235, 192, 194);
+  size:24px;
+  font-family: helvetica;
+  text-decoration:none;
+}
+
+.link {
+  padding-top: 50px;
+  text-align:center;
 }
