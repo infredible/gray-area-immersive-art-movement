@@ -1,0 +1,100 @@
+.group {
+  width: 600px;
+  height:1000px;
+  margin:auto;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+body {
+  background-color: rgba(143, 29, 43, 1);
+}
+
+.uniform {
+  height:120px;
+  width:120px;
+  background-color: rgb(255, 255, 255);
+  display:inline-block;
+  margin:20px;
+}
+
+.uniform:hover {
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  border-radius: 1000px;
+}
+
+.rows {
+  display:block;
+}
+
+.square1 {
+  opacity: 0.03;
+}
+
+.square2 {
+  opacity: .08;
+}
+.square3 {
+  opacity: .05;
+}
+.square4 {
+  opacity: .08;
+}
+.square5 {
+  opacity: .08;
+}
+.square6 {
+  opacity: .12;
+}
+.square7 {
+  opacity: .10;
+}
+.square8 {
+  opacity: .16;
+}
+.square9 {
+  opacity: .08;
+}
+
+
+
+
+.square1:hover {
+  background-color: rgb(96, 207, 58);
+  opacity: 1;
+}
+
+.square2:hover {
+  background-color: rgb(144, 112, 195);
+    opacity: 1;
+}
+.square3:hover {
+  background-color: rgb(232, 193, 26);
+  opacity: 1;
+}
+.square4:hover {
+  background-color:rgb(108, 92, 210);
+  opacity: 1;
+}
+.square5:hover {
+  background-color:rgb(62, 221, 211);
+  opacity: 1;
+}
+.square6:hover {
+  background-color:rgb(73, 208, 147);
+  opacity: 1;
+}
+.square7:hover {
+  background-color:rgb(231, 107, 163);
+  opacity: 1;
+}
+.square8:hover {
+  background-color:rgb(231, 132, 29);
+  opacity: 1;
+}
+.square9:hover {
+  background-color:rgb(13, 13, 14);
+  opacity: 1;
+}
